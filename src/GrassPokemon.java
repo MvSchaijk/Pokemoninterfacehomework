@@ -10,16 +10,16 @@ public class GrassPokemon extends Pokemon{
         super(level, hp, food, sound, name, TYPE);
     }
     public void leafStorm(Pokemon name, Pokemon enemy){
-        System.out.println(". doe je leaf storm!");
+        System.out.println(getName() +". doe je leaf storm!");
     }
     public void leechSeed(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je leech seed!");
+        System.out.println(getName() +", doe je leech seed!");
     }
     public void leaveBlade(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je leaf blade!");
+        System.out.println(getName() +", doe je leaf blade!");
     }
     public void solarBeam(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je solar beam!");
+        System.out.println(getName() +", doe je solar beam!");
     }
 
     public List<String> getAttacks() {

@@ -13,16 +13,16 @@ public class FirePokemon extends Pokemon{
         super(level, hp, food, sound, name, TYPE);
     }
     void fireLash(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je fire lash");
+        System.out.println(getName() +", doe je fire lash!");
     }
     void flameThrower(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je flame thrower!");
+        System.out.println(getName() +", doe je flame thrower!");
     }
     void pyroBall(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je pyro ball!");
+        System.out.println(getName() +", doe je pyro ball!");
     }
     void inferno(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je inferno!");
+        System.out.println(getName() +", doe je inferno!");
     }
 
     public List<String> getAttacks() {

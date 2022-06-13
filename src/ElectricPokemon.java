@@ -10,16 +10,16 @@ public class ElectricPokemon extends Pokemon{
         super(level, hp, food, sound, name, TYPE);
     }
     void electroBall(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je electroball!");
+        System.out.println(getName() +", doe je electroball!");
     }
     void voltTackle(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je volt tackle!");
+        System.out.println(getName() +", doe je volt tackle!");
     }
     void thunder(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je thunder aanval!");
+        System.out.println(getName() +", doe je thunder aanval!");
     }
     void thunderPunch(Pokemon name, Pokemon enemy){
-        System.out.println(", doe je thunder punch!");
+        System.out.println(getName() +", doe je thunder punch!");
     }
 
     public List<String> getAttacks() {
